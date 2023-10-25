@@ -68,8 +68,8 @@ body{
 #project-intro{
   text-align: center;
   position: relative;
-  text-decoration: underline;
-  text-underline-offset: 0.2em;
+  /*text-decoration: underline;
+  text-underline-offset: 0.4em;*/
   padding: 4rem;
   font-size: 1.3rem;
   font-weight: bold;
@@ -141,7 +141,7 @@ body{
     /*height: 100%;*/
     background-color: var(--secondary-button);
     border-radius: 10px;
-overflow: overlay;
+overflow: scroll;
   }
   #project-intro{
     margin: 0;
